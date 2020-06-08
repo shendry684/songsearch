@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 export default function SearchAlbums() {
-  //states- input query, albums
+
   const [query, setQuery] = useState('');
   const [albums, setAlbums] = useState([]);
   const searchAlbums = async (e) => {
