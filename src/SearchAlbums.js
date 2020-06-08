@@ -44,7 +44,7 @@ export default function SearchAlbums() {
             <div className="card" key={album.id}>
               <img
                 className="card--image"
-                src={`http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&api_key=47983be0b870798dacb85e5faa8234f9${album.poster_path}`}
+                src={`http://ws.audioscrobbler.com/2.0/?method=artist.getSimilar&api_key=${album.poster_path}`}
                 alt={album.title + ' poster'}
               />
               <div className="card--content">
